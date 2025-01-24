@@ -13,7 +13,7 @@
 
 My Youtube    : https://www.youtube.com/@AksesInternet2023
 
-Link Tutorial : 
+Link Tutorial : https://youtu.be/g-MnRttcWVs?si=7HvR48V9NSkRGy7A
 
 My Website    : https://hackingforlive.wordpress.com
 
