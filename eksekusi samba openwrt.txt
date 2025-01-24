@@ -1,3 +1,7 @@
+Creator Boychongzen aka Xroot
+
+                    SAMBA OPENWRT REMOTE WINDOWS
+
 1. buka terminal & Eksekusi dibawah
 
    opkg update && opkg install samba4-server luci-app-samba4 ntfs-3g
@@ -20,9 +24,21 @@ config rule
     option proto 'tcp'
     option dest_port '445'
     option target 'ACCEPT'
+	
+3. Buat Password Login
+   buka file : etc/passwd & copas paling bawah 
+   
+   nama anda:*:1000:65534:nama anda:/var:/bin/false   
+   
+   buka terminal & ketik dibawah
+   
+   smbpasswd -a nama anda
+
+   service samba4 restart   
+   
  
 
-3. Copas di system/startup/local startup
+4. Copas di system/startup/local startup
 
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
@@ -33,10 +49,7 @@ config rule
 exit 0
 
 
-5. Setting Samba di Luci
-   Add Share directories
+5. Reboot OpenWRT Anda
 
-6. Reboot OpenWRT Anda
-
-7. Coba akses samba server via PC dengan cara Windows+R dan masukkan ip router anda
+6. Coba akses samba server via PC dengan cara Windows+R dan masukkan ip router anda
    \\192.168.1.1
