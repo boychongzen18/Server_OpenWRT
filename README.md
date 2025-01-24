@@ -6,6 +6,7 @@
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/Disman.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/openwrt.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/samba.jpg)
+![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/Add_Share_Directories.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/server.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/login.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/hdd.jpg)
