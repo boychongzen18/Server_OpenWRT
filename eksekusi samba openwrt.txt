@@ -1,0 +1,42 @@
+1. buka terminal & Eksekusi dibawah
+
+   opkg update && opkg install samba4-server luci-app-samba4 ntfs-3g
+
+2. Edit Firewall via putty copas paling bawah: 
+   CARI FOLDER /etc/config/firewall
+
+config rule
+    option src 'lan'
+    option proto 'udp'
+    option dest_port '137-138'
+    option target 'ACCEPT'
+config rule
+    option src 'lan'
+    option proto 'tcp'
+    option dest_port '139'
+    option target 'ACCEPT'
+config rule
+    option src 'lan'
+    option proto 'tcp'
+    option dest_port '445'
+    option target 'ACCEPT'
+ 
+
+3. Copas di system/startup/local startup
+
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+
+/etc/init.d/samba4 enable
+/etc/init.d/samba4 start
+exit 0
+
+
+5. Setting Samba di Luci
+   Add Share directories
+
+6. Reboot OpenWRT Anda
+
+7. Coba akses samba server via PC dengan cara Windows+R dan masukkan ip router anda
+   \\192.168.1.1
