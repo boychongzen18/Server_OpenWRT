@@ -2,7 +2,7 @@
 
 # Created Boychongzen aka Xroot
 
-#  TAMPILAN SAMBA OPENWRT
+#  Tampilan Saamba OpenWRT Remote Via Windows
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/openwrt.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/samba.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Server_OpenWRT/refs/heads/main/server.jpg)
