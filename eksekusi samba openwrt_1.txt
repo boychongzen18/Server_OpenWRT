@@ -60,4 +60,4 @@ exit 0
 7. Reboot OpenWRT Anda
 
 8. Coba akses samba server via PC dengan cara Windows+R dan masukkan ip router anda
-   \\192.168.1.1
+   \\192.168.82.1
